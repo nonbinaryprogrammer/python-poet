@@ -57,3 +57,8 @@ the inputs in the print_poem function call.
   To save the poem to a file, run `python poetry.py > file_name`
   Note: running the above more than once with the same filename will overwrite
 the original run.
+
+Contributing
+-------------
+  Please contribute!
+  Feel free to fork, or to branch and create pull requests!
