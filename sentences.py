@@ -10,15 +10,15 @@ class Sentences:
 
     return word[num]
 
-  def get_metaphor(self, adj, noun):
+  def get_simile(self, adj, noun):
     num1 = random.randint(0, 87345) % (len(adj))
     num2 = random.randint(0, 6598374) % (len(noun))
 
-    metaphor = "as " + adj[num1] + " as a " + noun[num2]
-    return metaphor
+    simile = "as " + adj[num1] + " as a " + noun[num2]
+    return simile
 
-  def print_sentence_with_metaphor(self, nouns, verbs, adjectives, adverbs):
-    print self.get_rand(["a", "the"]) + " " + self.get_rand(nouns.singular_nouns) + " " + self.get_rand(verbs.singular_verbs) + " " + self.get_metaphor(adjectives.adjectives, nouns.singular_nouns)
+  def print_sentence_with_simile(self, nouns, verbs, adjectives, adverbs):
+    print self.get_rand(["a", "the"]) + " " + self.get_rand(nouns.singular_nouns) + " " + self.get_rand(verbs.singular_verbs) + " " + self.get_simile(adjectives.adjectives, nouns.singular_nouns)
 
   def print_singular_the_sentence(self, nouns, verbs, adjectives, adverbs):
     print self.get_rand(["a", "the"]) + " " + self.get_rand(nouns.singular_nouns) + " " + self.get_rand(verbs.singular_verbs)

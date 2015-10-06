@@ -12,7 +12,7 @@ adverbs = Adverbs()
 sentences = Sentences()
 stanzas = Stanzas()
 
-options = {0 : sentences.print_sentence_with_metaphor,
+options = {0 : sentences.print_sentence_with_simile,
     1: sentences.print_singular_the_sentence,
     2: sentences.print_singular_a_sentence,
     3: sentences.print_plural_sentence,
