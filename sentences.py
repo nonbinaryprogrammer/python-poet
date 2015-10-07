@@ -17,27 +17,27 @@ class Sentences:
     simile = "as " + adj[num1] + " as a " + noun[num2]
     return simile
 
-  def print_sentence_with_simile(self, nouns, verbs, adjectives, adverbs):
-    print self.get_rand(["a", "the"]) + " " + self.get_rand(nouns.singular_nouns) + " " + self.get_rand(verbs.singular_verbs) + " " + self.get_simile(adjectives.adjectives, nouns.singular_nouns)
+  def print_sentence_with_simile(self, words):
+    print self.get_rand(["a", "the"]) + " " + self.get_rand(words.singular_nouns) + " " + self.get_rand(words.singular_verbs) + " " + self.get_simile(words.adjectives, words.singular_nouns)
 
-  def print_singular_the_sentence(self, nouns, verbs, adjectives, adverbs):
-    print self.get_rand(["a", "the"]) + " " + self.get_rand(nouns.singular_nouns) + " " + self.get_rand(verbs.singular_verbs)
+  def print_singular_the_sentence(self, words):
+    print self.get_rand(["a", "the"]) + " " + self.get_rand(words.singular_nouns) + " " + self.get_rand(words.singular_verbs)
 
-  def print_singular_a_sentence(self, nouns, verbs, adjectives, adverbs):
-    print self.get_rand(["a", "the"]) + " " + self.get_rand(nouns.singular_nouns) + " " + self.get_rand(verbs.singular_verbs)
+  def print_singular_a_sentence(self, words):
+    print self.get_rand(["a", "the"]) + " " + self.get_rand(words.singular_nouns) + " " + self.get_rand(words.singular_verbs)
 
-  def print_plural_sentence(self, nouns, verbs, adjectives, adverbs):
-    print self.get_rand(nouns.plural_nouns) + " " + self.get_rand(verbs.plural_verbs)
+  def print_plural_sentence(self, words):
+    print self.get_rand(words.plural_nouns) + " " + self.get_rand(words.plural_verbs)
 
-  def print_plural_action_on_singular_sentence(self, nouns, verbs, adjectives, adverbs):
-    print self.get_rand(nouns.plural_nouns) + " " + self.get_rand(verbs.plural_verbs) + " " + self.get_rand(["a", "the"]) + " " + self.get_rand(nouns.singular_nouns)
+  def print_plural_action_on_singular_sentence(self, words):
+    print self.get_rand(words.plural_nouns) + " " + self.get_rand(words.plural_verbs) + " " + self.get_rand(["a", "the"]) + " " + self.get_rand(words.singular_nouns)
 
-  def print_plural_action_on_plural_sentence(self, nouns, verbs, adjectives, adverbs):
-    print self.get_rand(nouns.plural_nouns) + " " + self.get_rand(verbs.plural_verbs) + " " + self.get_rand(nouns.plural_nouns)
+  def print_plural_action_on_plural_sentence(self, words):
+    print self.get_rand(words.plural_nouns) + " " + self.get_rand(words.plural_verbs) + " " + self.get_rand(words.plural_nouns)
 
-  def print_singular_action_on_singular_sentence(self, nouns, verbs, adjectives, adverbs):
-    print self.get_rand(["a", "the"]) + " " + self.get_rand(nouns.singular_nouns) + " " + self.get_rand(verbs.singular_verbs) + " " + self.get_rand(["a", "the"]) + " " + self.get_rand(nouns.singular_nouns)
+  def print_singular_action_on_singular_sentence(self, words):
+    print self.get_rand(["a", "the"]) + " " + self.get_rand(words.singular_nouns) + " " + self.get_rand(words.singular_verbs) + " " + self.get_rand(["a", "the"]) + " " + self.get_rand(words.singular_nouns)
 
-  def print_singular_action_on_plural_sentence(self, nouns, verbs, adjectives, adverbs):
-    print self.get_rand(["a", "the"]) + " " + self.get_rand(nouns.singular_nouns) + " " + self.get_rand(verbs.singular_verbs) + " " + self.get_rand(nouns.plural_nouns)
+  def print_singular_action_on_plural_sentence(self, words):
+    print self.get_rand(["a", "the"]) + " " + self.get_rand(words.singular_nouns) + " " + self.get_rand(words.singular_verbs) + " " + self.get_rand(words.plural_nouns)
 

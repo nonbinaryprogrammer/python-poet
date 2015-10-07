@@ -1,14 +1,8 @@
-from verbs import Verbs
-from nouns import Nouns
-from adverbs import Adverbs
-from adjectives import Adjectives
+from dictionary import Words
 from sentences import Sentences
 from stanzas import Stanzas
 
-verbs = Verbs()
-nouns = Nouns()
-adjectives = Adjectives()
-adverbs = Adverbs()
+words = Words()
 sentences = Sentences()
 stanzas = Stanzas()
 
@@ -22,8 +16,8 @@ options = {0 : sentences.print_sentence_with_simile,
     7: sentences.print_singular_action_on_singular_sentence
     }
 
-def print_poem(numstanzas, numlines, stanzas, options, nouns, verbs, adjectives, adverbs):
+def print_poem(numstanzas, numlines, stanzas, options, words):
   for x in range(0, numstanzas):
-    stanzas.print_stanza(numlines, options, nouns, verbs, adjectives, adverbs)
+    stanzas.print_stanza(numlines, options, words)
 
-print_poem(4, 3, stanzas, options, nouns, verbs, adjectives, adverbs)
+print_poem(4, 3, stanzas, options, words)
