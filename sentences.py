@@ -41,3 +41,8 @@ class Sentences:
   def print_singular_action_on_plural_sentence(self, words):
     print self.get_rand(["a", "the"]) + " " + self.get_rand(words.singular_nouns) + " " + self.get_rand(words.singular_verbs) + " " + self.get_rand(words.plural_nouns)
 
+  def print_singular_action_with_adverb_sentence(self, words):
+    print self.get_rand(["a", "the"]) + " " + self.get_rand(words.singular_nouns) + " " + self.get_rand(words.adverbs) + " " + self.get_rand(words.singular_verbs)
+    
+  def print_plural_action_with_adverb_sentence(self, words):
+    print self.get_rand(["a", "the"]) + " " + self.get_rand(words.plural_nouns) + " " + self.get_rand(words.adverbs) + " " + self.get_rand(words.plural_verbs)
