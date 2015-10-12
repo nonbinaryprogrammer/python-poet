@@ -1,6 +1,7 @@
 from dictionary import Words
 from sentences import Sentences
 from stanzas import Stanzas
+from sys import argv
 
 words = Words()
 sentences = Sentences()
@@ -20,4 +21,7 @@ def print_poem(numstanzas, numlines, stanzas, options, words):
   for x in range(0, numstanzas):
     stanzas.print_stanza(numlines, options, words)
 
-print_poem(4, 3, stanzas, options, words)
+if len(argv) < 3:
+  print_poem(4, 3, stanzas, options, words)
+else:
+  print_poem(int(argv[1]), int(argv[2]), stanzas, options, words)
