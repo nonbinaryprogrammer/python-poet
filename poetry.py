@@ -28,15 +28,14 @@ sentences = Sentences()
 # this is a list of all the sentence structure options that we can print. We use
 # this list so that we can pick a random one to print when we write the poem
 options = {0 : sentences.print_sentence_with_simile,
-    1: sentences.print_singular_the_sentence,
-    2: sentences.print_singular_a_sentence,
-    3: sentences.print_plural_sentence,
-    4: sentences.print_plural_action_on_singular_sentence,
-    5: sentences.print_plural_action_on_plural_sentence,
-    6: sentences.print_singular_action_on_plural_sentence,
-    7: sentences.print_singular_action_on_singular_sentence,
-    8: sentences.print_singular_action_with_adverb_sentence,
-    9: sentences.print_plural_action_with_adverb_sentence
+    1: sentences.print_singular_sentence,
+    2: sentences.print_plural_sentence,
+    3: sentences.print_plural_action_on_singular_sentence,
+    4: sentences.print_plural_action_on_plural_sentence,
+    5: sentences.print_singular_action_on_plural_sentence,
+    6: sentences.print_singular_action_on_singular_sentence,
+    7: sentences.print_singular_action_with_adverb_sentence,
+    8: sentences.print_plural_action_with_adverb_sentence
     }
 
 # this function gets called when we want to print the poem. It has inputs and
