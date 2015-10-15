@@ -35,11 +35,6 @@ sentences also contains the structure for similes. This is extracted from the
 sentence structure because it could be reused in a variety of sentence
 structures.
 
-Stanzas File
-------------
-  The Stanzas file calls the sentences by selecting the number of random
-sentences requested by poetry.py. It prints a newline after each stanza.
-
 Poetry File
 -----------
   The Poetry file imports all word types, sentences, and stanzas. It then
@@ -52,9 +47,10 @@ Running the Poetry Generator
 ----------------------------
   To run the Poetry Generator, download all of the files. Then, in the directory
 containing the files, run `python poetry.py`
-  To change any of the length parameters, go into the poetry.py file and change
-the inputs in the print_poem function call.
-  To save the poem to a file, run `python poetry.py > file_name`
+  To change the length of the poem or the stanza, run `python poetry.py
+[numStanzas] [numLines]`
+  To save the poem to a file, run `python poetry.py > file_name` or `python
+poetry.py [numStanzas] [numLines]`
   Note: running the above more than once with the same filename will overwrite
 the original run.
 
