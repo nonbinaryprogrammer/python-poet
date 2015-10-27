@@ -71,4 +71,4 @@ class Sentences:
     
   # prints a sentence with a noun, action, and adverb
   def print_plural_action_with_adverb_sentence(self, words):
-    print self.get_rand(["a", "the"]) + " " + self.get_rand(words.plural_nouns) + " " + self.get_rand(words.adverbs) + " " + self.get_rand(words.plural_verbs)
+    print self.get_rand(words.plural_nouns) + " " + self.get_rand(words.adverbs) + " " + self.get_rand(words.plural_verbs)
