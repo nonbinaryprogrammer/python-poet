@@ -1,0 +1,7 @@
+#!/bin/bash
+
+while [ 1 ]
+do
+python ./poetry.py 1 4
+sleep 10s
+done
