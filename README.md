@@ -54,6 +54,15 @@ poetry.py [numStanzas] [numLines]`
   Note: running the above more than once with the same filename will overwrite
 the original run.
 
+Printing Poetry with EPSON TM-T88IV and TM-T88V thermal printers
+----------------------------------------------------------------
+  TM-T88IV works exclusively with Linux, TM-T88V also has Mac OSX support.
+  Once the printer drivers are installed, the printer should be available as a
+regular printer when the printer is plugged in via USB.
+  On mac, run `python poetry.py <num stanzas> <num lines> > out` then run `lp -d
+EPSON_TM_T88V out` to print the file. If you wish to view the file before you
+print it, you may run `vim out`
+
 Contributing
 -------------
   Please contribute!
