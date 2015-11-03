@@ -27,7 +27,9 @@ Sentence File
 sentence structure is added, the function name must be added to the options hash
 in poetry.py. If it is not, the sentence structure will never be chosen. New
 sentence structures must accept all word-types, as well as self.
+
   The sentence structure chosen is randomized in stanzas.py.
+
   The Sentences file also contains the randomization of the selection of words
 for the sentence structure. The selection is pseudo-random and could be improved
 on. As well as single word randomization to be called by sentence structures,
@@ -47,10 +49,13 @@ Running the Poetry Generator
 ----------------------------
   To run the Poetry Generator, download all of the files. Then, in the directory
 containing the files, run `python poetry.py`
+
   To change the length of the poem or the stanza, run `python poetry.py
 [numStanzas] [numLines]`
+
   To save the poem to a file, run `python poetry.py > file_name` or `python
 poetry.py [numStanzas] [numLines]`
+
   Note: running the above more than once with the same filename will overwrite
 the original run.
 
@@ -62,6 +67,7 @@ regular printer when the printer is plugged in via USB.
   On mac, run `python poetry.py <num stanzas> <num lines> > out` then run `lp -d
 EPSON_TM_T88V out` to print the file. If you wish to view the file before you
 print it, you may run `vim out`
+
   The method for printing on Linux will also work on mac, but I've found that
 this method works more reliably with the TM-T88IV than the mac method does. When
 the printer is plugged in via USB and configured via cups (at `localhost:631`)
