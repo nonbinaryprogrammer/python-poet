@@ -62,6 +62,10 @@ regular printer when the printer is plugged in via USB.
   On mac, run `python poetry.py <num stanzas> <num lines> > out` then run `lp -d
 EPSON_TM_T88V out` to print the file. If you wish to view the file before you
 print it, you may run `vim out`
+  The method for printing on Linux will also work on mac, but I've found that
+this method works more reliably with the TM-T88IV than the mac method does. When
+the printer is plugged in via USB and configured via cups (at `localhost:631`)
+run `python poetry.py <num stanzas> <num lines> | lp -d EPSON_TM_T88IV`
 
 Contributing
 -------------
