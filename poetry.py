@@ -49,7 +49,7 @@ def print_poem(numstanzas, numlines, options, words):
   # this loops to print each stanza
   for x in range(0, numstanzas):
     # this loops to print each line in the stanza
-    for x in range(0, numlines):
+    for y in range(0, numlines):
       # this picks a random sentence from our list of sentences to print
       options[random.randint(0, 40000) % len(options)](words);
     # this adds a new line after each stanza
