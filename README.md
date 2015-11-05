@@ -1,6 +1,29 @@
 README
 ======
 
+Dependencies
+------------
+For the actual poetry generator:
+
+python
+
+For the `run` executable:
+
+lolcat, which you can get by running
+
+`gem install lolcat`
+
+or
+
+`sudo apt-get install lolcat`
+
+or
+
+`brew install lolcat`
+
+or if you want to be boring a professional, you could remove the `| lolcat` from
+the file.
+
 About
 ------
   This is a poetry generator written in Python. It is for the OSU Valley
