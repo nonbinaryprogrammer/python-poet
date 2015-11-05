@@ -9,3 +9,17 @@ class Words:
     self.singular_verbs = ["evokes", "laments", "captures", "explores", "rests", "sweeps", "frames", "relaxes", "flows", "shades", "dims", "hums", "jumps", "drives", "roams", "dreams", "sleeps", "sings", "tears", "tries", "ululates", "verifies", "winks", "exonerates", "yokes", "zings"]
     self.plural_verbs = ["evoke", "lament", "capture", "explore", "rest", "sweep", "frame", "relax", "flow", "shade", "dim", "hum", "jump", "drive", "roam", "dream", "sleep", "sing", "tear", "try", "ululate", "verify", "wink", "exonerate", "yoke", "zing"]
 
+    ############################################################################
+    #if you want to make your own list of words from scratch, copy any of the
+    #following lines (without the '#' in front), paste it after this block, and
+    #fill it with words! Just make sure the start of the lines is at the same
+    #place as these line: two tabs indented.
+    #
+    #self.singular_nouns = []
+    #self.plural_nouns = []
+    #self.adjectives = []
+    #self.adverbs = []
+    #self.singular_verbs = []
+    #self.plural_verbs = []
+    ############################################################################
+
