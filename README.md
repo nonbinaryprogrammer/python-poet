@@ -21,7 +21,7 @@ or
 
 `brew install lolcat`
 
-or if you want to be boring a professional, you could remove the `| lolcat` from
+or if you want to be a boring professional, you could remove the `| lolcat` from
 the file.
 
 About
