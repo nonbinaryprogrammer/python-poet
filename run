@@ -3,5 +3,5 @@
 while [ 1 ]
 do
 python ./poetry.py 1 4 | lolcat
-sleep 10s
+sleep 5s
 done
