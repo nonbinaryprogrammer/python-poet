@@ -31,11 +31,10 @@ Library's Crafternoon events to show people the connection between technology
 and creativity. This code is meant to be customized, from the words in the
 word-type files to the sentence structures.
 
-Word-Type Files
+Word-Type Lists
 ---------------
-  The files named for word-types (i.e. Nouns, Verbs) contain lists of words of
-that word type. They are meant to be added to in order to give the generator a
-larger vocabulary. Some of these files contain two lists of words, one for
+  The lists named for word-types (i.e. Nouns, Verbs) in `dictionary.py` hold
+words of each type. Sometimes there are two lists of words, one for
 singular and one for plural. The two lists don't have to contain the same words
 or the same number of words as they are both pulled from individually, but in
 order for the sentences to sound correct, only the plural form of words should
